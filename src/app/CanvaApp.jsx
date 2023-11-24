@@ -1,3 +1,8 @@
+import {
+  Row, Header, NavBar, NavBarBackGround, NavBarSections, RowLeft, RowRight, NameSection, InputText, Text, CanvaProSection, Button, SpanText, SvgImage, Collaborator, CollaboratorsSection,
+  InsightNotification,InsightsSection, PrintSection, PrintShareSection, BodyContainer,AsidePanel
+} from "./components";
+
 export const CanvaApp = () => {
   return ( 
     <>
@@ -78,7 +83,7 @@ export const CanvaApp = () => {
                   <RowLeft>
                     <NameSection>
                       <Row>
-                        <Input type="text" tabIndex="1" className="" maxLength="255" value="ProjectsName" arial-label="Design title" />
+                        <InputText />
                         <Text>ProjectsName</Text>
                       </Row>
                     </NameSection>
@@ -160,7 +165,7 @@ export const CanvaApp = () => {
           </Header>
         </Row>
         <Row>
-          <Body>
+          <BodyContainer>
             <Row>
               <AsidePanel>
                 <SidePanel>
@@ -217,29 +222,9 @@ export const CanvaApp = () => {
                   <SideElement>
                     <Option>
                       <Button>
-                        <SpanText></SpanText>
-                        <SvgImage>
-                          
-                        </SvgImage>
-                      </Button>
-                    </Option>
-                  </SideElement>
-                  <SideElement>
-                    <Option>
-                      <Button>
                         <SpanText>Draw</SpanText>
                         <SvgImage>
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.625 13.5H8.25a.75.75 0 0 0 0-1.5H5.625a2.625 2.625 0 1 0 0 5.25h10.5a1.125 1.125 0 0 1 0 2.25H11.25a.75.75 0 1 0 0 1.5h4.875a2.625 2.625 0 1 0 0-5.25h-10.5a1.125 1.125 0 0 1 0-2.25Z" fill="currentColor"></path><path d="M17.25 3a.75.75 0 0 0-.529.221l-4.683 4.68a5.226 5.226 0 0 0-1.538 3.724v1.125a.75.75 0 0 0 .75.75h1.125a5.22 5.22 0 0 0 3.713-1.537l4.69-4.684A.75.75 0 0 0 21 6.75 3.75 3.75 0 0 0 17.25 3Zm-2.212 7.901A3.724 3.724 0 0 1 12.375 12H12v-.375A3.722 3.722 0 0 1 13.1 8.974l4.444-4.455A2.25 2.25 0 0 1 19.5 6.457l-4.462 4.444Z" fill="currentColor"></path></svg>
-                        </SvgImage>
-                      </Button>
-                    </Option>
-                  </SideElement>
-                  <SideElement>
-                    <Option>
-                      <Button>
-                        <SpanText></SpanText>
-                        <SvgImage>
-                          
                         </SvgImage>
                       </Button>
                     </Option>
@@ -277,7 +262,7 @@ export const CanvaApp = () => {
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.928 1.048c.013-.064.13-.064.144 0 .115.543.38 1.51.875 2.005.495.496 1.462.76 2.006.875.063.013.063.13 0 .144-.544.115-1.51.38-2.006.875-.496.495-.76 1.462-.875 2.005-.013.064-.13.064-.144 0-.115-.543-.38-1.51-.875-2.005-.495-.496-1.462-.76-2.006-.875-.063-.013-.063-.13 0-.144.544-.115 1.51-.38 2.006-.875.496-.495.76-1.462.875-2.005ZM13.067 4.046c-.012-.061-.122-.061-.134 0-.133.67-.477 2.044-1.16 2.727-.683.683-2.057 1.027-2.727 1.16-.061.012-.061.122 0 .134.67.133 2.044.477 2.727 1.16.683.683 1.027 2.057 1.16 2.727.012.061.122.061.134 0 .133-.67.477-2.044 1.16-2.727.683-.683 2.057-1.027 2.727-1.16.061-.012.061-.122 0-.134-.67-.133-2.044-.477-2.727-1.16-.683-.683-1.027-2.057-1.16-2.727Z" fill="currentColor"></path><path d="M2 11.5a7.5 7.5 0 0 0 12.202 5.843l4.156 4.157a1 1 0 1 0 1.415-1.414l-4.193-4.193A7.46 7.46 0 0 0 16.984 12h-1.505A6 6 0 1 1 9 5.52V4.017A7.5 7.5 0 0 0 2 11.5Z" fill="currentColor"></path></svg>
                           </SvgImage>
                         </SpanText>
-                        <Input placeholder="Use 5+ words to describe..." dir="auto" type="search" aria-label="Use 5+ words to describe..." aria-describedby=":r1t:0" value=""/>
+                        <InputSearch />
                         <Button>
                           <SpanText>
                             <SvgImage>
@@ -315,7 +300,9 @@ export const CanvaApp = () => {
                       </LeftFooter>
                       <RightFooter>
                         <PageInformation></PageInformation>
-                        <RangePorcentageImage></RangePorcentageImage>
+                        <RangePorcentageImage>
+                          <InputRange/>
+                        </RangePorcentageImage>
                         <PorcentageImage></PorcentageImage>
                         <GridElments></GridElments>
                         <ExpandProject></ExpandProject>
@@ -326,7 +313,7 @@ export const CanvaApp = () => {
                 </Row>
               </MainContainer>
             </Row>
-          </Body>
+          </BodyContainer>
         </Row>
       </CanvaApp>
     </>

@@ -39,9 +39,7 @@ export default function Home() {
           priority
         />
       </div>
-      {/* <Row>
-        <p>Hola</p>
-      </Row> */}
+
 
       <NavBar></NavBar>
 

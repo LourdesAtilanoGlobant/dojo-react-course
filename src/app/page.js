@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Row } from './components/Row'
+import { NavBar } from './components/NavBar';
 
 export default function Home() {
   return (
@@ -39,9 +39,9 @@ export default function Home() {
           priority
         />
       </div>
-      <Row>
-        <p>Row from Home</p>
-      </Row>
+      {/* <Row> */}
+        <NavBar></NavBar>
+      {/* </Row> */}
 
       <div className="grid mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a

@@ -11,3 +11,11 @@ export const Text = ({children}) => {
     <p>{children}</p>
   );
 }
+
+export const PillText = ({children}) => {
+  return ( 
+    <span className="text-white bg-purple-900 border rounded-md">
+      {children}
+    </span> 
+  );
+}

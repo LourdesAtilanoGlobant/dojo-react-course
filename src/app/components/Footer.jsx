@@ -38,7 +38,7 @@ export const PageInformation = () => {
   );
 }
 
-export const RangePorcentage = ({children}) => {
+export const RangePorcentageImage = ({children}) => {
   return (
     <>
       {children}

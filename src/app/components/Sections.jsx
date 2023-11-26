@@ -20,7 +20,6 @@ export const AddCollaborator = ({children}) => {
   </> );
 }
 
-
 export const Section = ({children}) => {
   return ( 
     <>
@@ -84,6 +83,78 @@ export const InsightNotification = ({children}) => {
   return ( <>
     <div className="text-white insightNotification">
       <p>insightNotification</p>
+    </div>
+  </> );
+}
+
+export const HomeSection = ({children}) => {
+  return ( <>
+    <div className="text-white homeSection">
+      {children}
+    </div>
+  </> );
+}
+
+export const FileSection = ({children}) => {
+  return ( <>
+    <div className="text-white fileSection">
+      {children}
+    </div>
+  </> );
+}
+
+export const MagicSection = ({children}) => {
+  return ( <>
+    <div className="text-white magicSection">
+      {children}
+    </div>
+  </> );
+}
+
+export const BackSection = ({children}) => {
+  return ( <>
+    <div className="text-white backSection">
+      {children}
+    </div>
+  </> );
+}
+
+export const NextSection = ({children}) => {
+  return ( <>
+    <div className="text-white nextSection">
+      {children}
+    </div>
+  </> );
+}
+
+export const SaveSection = ({children}) => {
+  return ( <>
+    <div className="text-white saveSection">
+      {children}
+    </div>
+  </> );
+}
+
+export const ShareSection = ({children}) => {
+  return ( <>
+    <div className="text-white shareSection">
+      {children}
+    </div>
+  </> );
+}
+
+export const SeparationDiv = () => {
+  return ( 
+    div.separationDiv.border.border-white
+  );
+}
+
+export const HamMenu = () => {
+  return ( <>
+    <div className="text-white hamMenu">
+      ------
+      ------
+      ------
     </div>
   </> );
 }

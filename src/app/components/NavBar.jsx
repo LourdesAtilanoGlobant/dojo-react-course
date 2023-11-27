@@ -13,10 +13,12 @@ export const NavBarSections = ({children}) => {
 export const NavBar = () => {
   return ( 
     <>
-      <NavBar className="text-white border border-red-700 solid">
-        <NavBarBackGround></NavBarBackGround>
-        <NavBarSections></NavBarSections>
-      </NavBar>
+      <div className="text-white bg-purple-600 border border-red-700 solid">
+        {/* <NavBarBackGround></NavBarBackGround>
+        <NavBarSections> */}
+          <p>Aquí va el Navbar</p>
+        {/* </NavBarSections> */}
+      </div>
     </>
   );
 }

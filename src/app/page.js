@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { NavBar, Row } from './components';
+import { Row, Header } from './components';
 
 export default function Home() {
   return (
@@ -16,7 +16,10 @@ export default function Home() {
       </div>
 
       <div className="grid mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <p>Hello World</p>
+        <Row>
+          <Header></Header>
+          <p>Hello World</p>
+        </Row>
       </div>
     </main>
   )

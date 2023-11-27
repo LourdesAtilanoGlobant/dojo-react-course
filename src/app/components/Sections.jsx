@@ -152,9 +152,11 @@ export const SeparationDiv = () => {
 export const HamMenu = () => {
   return ( <>
     <div className="text-white hamMenu">
+      <p>
       ------
       ------
       ------
+      </p>
     </div>
   </> );
 }

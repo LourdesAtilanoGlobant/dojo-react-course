@@ -1,0 +1,8 @@
+.buttonOpacity {
+  background-color: hsla(0,0%,100%,.07);
+  > svg:first-of-type {
+    color: white;
+    width: 20px;
+    height: 20px;
+  }
+}

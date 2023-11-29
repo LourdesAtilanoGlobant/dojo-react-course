@@ -65,7 +65,7 @@ export const GridElments = () => {
 export const ExpandProject = () => {
   return (
     <>
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.636 10.43 18.5 6.565v2.687a.75.75 0 0 0 1.5 0V5.497c0-.966-.53-1.495-1.497-1.495h-3.749a.75.75 0 0 0 0 1.5h2.687l-3.867 3.867a.75.75 0 0 0 1.06 1.061Zm-5.27 3.139-3.867 3.867v-2.688a.75.75 0 0 0-1.5 0v3.75c0 .967.527 1.5 1.493 1.5h3.753a.75.75 0 0 0 0-1.5H6.558l3.869-3.869a.75.75 0 0 0-1.061-1.06Z" fill="currentColor"></path></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M14.636 10.43 18.5 6.565v2.687a.75.75 0 0 0 1.5 0V5.497c0-.966-.53-1.495-1.497-1.495h-3.749a.75.75 0 0 0 0 1.5h2.687l-3.867 3.867a.75.75 0 0 0 1.06 1.061Zm-5.27 3.139-3.867 3.867v-2.688a.75.75 0 0 0-1.5 0v3.75c0 .967.527 1.5 1.493 1.5h3.753a.75.75 0 0 0 0-1.5H6.558l3.869-3.869a.75.75 0 0 0-1.061-1.06Z" fill="currentColor"></path></svg>
     </>  
   );
 }
@@ -73,7 +73,7 @@ export const ExpandProject = () => {
 export const QuestionsChat = () => {
   return ( 
     <>
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.636 10.43 18.5 6.565v2.687a.75.75 0 0 0 1.5 0V5.497c0-.966-.53-1.495-1.497-1.495h-3.749a.75.75 0 0 0 0 1.5h2.687l-3.867 3.867a.75.75 0 0 0 1.06 1.061Zm-5.27 3.139-3.867 3.867v-2.688a.75.75 0 0 0-1.5 0v3.75c0 .967.527 1.5 1.493 1.5h3.753a.75.75 0 0 0 0-1.5H6.558l3.869-3.869a.75.75 0 0 0-1.061-1.06Z" fill="currentColor"></path></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M14.636 10.43 18.5 6.565v2.687a.75.75 0 0 0 1.5 0V5.497c0-.966-.53-1.495-1.497-1.495h-3.749a.75.75 0 0 0 0 1.5h2.687l-3.867 3.867a.75.75 0 0 0 1.06 1.061Zm-5.27 3.139-3.867 3.867v-2.688a.75.75 0 0 0-1.5 0v3.75c0 .967.527 1.5 1.493 1.5h3.753a.75.75 0 0 0 0-1.5H6.558l3.869-3.869a.75.75 0 0 0-1.061-1.06Z" fill="currentColor"></path></svg>
     </>  
   );
 }

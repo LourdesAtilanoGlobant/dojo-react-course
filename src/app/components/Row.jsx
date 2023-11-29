@@ -1,6 +1,6 @@
 export const RowRight= ({children}) => {
   return ( 
-    <div className="w-full border border-green-400 solid" >
+    <div className="w-1/2 rowRight" >
       {children}
     </div>
   );
@@ -8,7 +8,7 @@ export const RowRight= ({children}) => {
 
 export const RowLeft= ({children}) => {
   return ( 
-    <div className="w-full border border-green-400 solid" >
+    <div className="w-1/2 rowLeft" >
       {children}
     </div>
   );
@@ -16,7 +16,7 @@ export const RowLeft= ({children}) => {
 
 export const Row = ({children}) => {
   return ( 
-    <div className="w-full border border-violet-400 solid" >
+    <div className="w-full" >
       {children}
     </div>
   );

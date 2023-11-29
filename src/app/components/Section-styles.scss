@@ -1,0 +1,22 @@
+.printShareSection {
+  color: #0d1216;
+  > svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+  > span {
+    color: #0d1216; 
+  }
+}
+
+.collaborator {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  right: -8px;
+}
+
+.buttonOpacity {
+  background-color: hsla(0, 0%, 100%, 0.07);
+}
